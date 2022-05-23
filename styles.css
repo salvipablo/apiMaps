@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header__title {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+#map {
+  margin: 0 auto;
+  width: 80%;
+  height: 45em;
+}
