@@ -1,39 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.navMain {
-  height: 60px;
-  padding-top: 5px;
-  margin-bottom: 2em;
-  background-color: #3d5fbd;
-}
-
-.navMain-menu {
-  width: 50px;
-  position: absolute;
-  cursor: pointer;
-}
-
-.navMain-title {
-  text-align: center;
-  font-size: 40px;
-}
-
-#map {
-  display: block;
-  width: 80%;
-  height: 45em;
-  margin: 0 auto;
-  background-image: url("../images/mapa.png");
-}
-
+@use '_variables.scss' as colors;
 /* Filter Form */
+
 .secFilterForm {
   width: 100vw;
   height: 100vh;
@@ -51,7 +18,7 @@ body {
 .cntFilterForm {
   width: 480px;
   height: 400px;
-  background-color: #d9d9d9;
+  background-color: colors.$back_color_cntForm;
   margin: 70px 0 0 5px;
   border-radius: 5px;
 }
@@ -59,6 +26,7 @@ body {
 .cntForm-title {
   text-align: center;
 }
+
 
 /* Forumulario */
 .cntFilterForm {
@@ -69,7 +37,7 @@ body {
   display: block;
 }
 
-.cntFilterForm input[type=text] {
+.cntFilterForm input[type="text"] {
   padding: 1em;
   border-radius: 5px;
   border: solid 1px #333333;
@@ -81,8 +49,6 @@ body {
   background: transparent;
   border: solid 1px #333333;
   border-radius: 20px;
-  background-color: #3d5fbd;
-  color: #FFFFFF;
+  background-color: colors.$back_color_btnForm;
+  color: colors.$text_color_btnForm;
 }
-
-/*# sourceMappingURL=styles.css.map */

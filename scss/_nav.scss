@@ -1,0 +1,19 @@
+@use '_variables.scss' as colors;
+
+.navMain {
+  height: 60px;
+  padding-top: 5px;
+  margin-bottom: 2em;
+  background-color: colors.$back_color_nav;
+}
+
+.navMain-menu {
+  width: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.navMain-title {
+  text-align: center;
+  font-size: 40px;
+}

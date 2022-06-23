@@ -4,6 +4,7 @@ T#00002 - Code refactoring.
 T#00003 - New navigation bar.
 T#00004 - modal type filters form.
 T#00005 - finish the form.
+T#00006 - Add Sass.
 
 
 ****  Ticket bugs  ****
