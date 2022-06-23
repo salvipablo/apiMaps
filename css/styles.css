@@ -7,13 +7,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header__title {
+.navMain {
+  height: 60px;
+  padding-top: 5px;
+  margin-bottom: 2em;
+  background-color: #3d5fbd;
+}
+
+.navMain-menu {
+  width: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.navMain-title {
   text-align: center;
-  margin: 0.5em 0;
 }
 
 #map {
-  margin: 0 auto;
+  display: block;
   width: 80%;
   height: 45em;
+  margin: 0 auto;
+  background-image: url('../images/mapa.png');
 }
