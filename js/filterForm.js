@@ -1,24 +1,24 @@
-const filterForm = document.getElementById('filterForm');
+const secFilterForm = document.getElementById('secFilterForm');
 const iconMenu = document.getElementById('iconMenu');
 const btnFilters = document.getElementById('btnFilters');
-const cntForm = document.getElementById('cntForm');
+const cntFilterForm = document.getElementById('cntFilterForm');
 
 let changeClass = true;
 
 iconMenu.addEventListener('click', () => {
-  filterForm.classList.toggle('filterFormComp');
+  secFilterForm.classList.toggle('secFilterFormBehaviour');
 });
 
 btnFilters.addEventListener('click', () => {
-  filterForm.classList.toggle('filterFormComp');
+  secFilterForm.classList.toggle('secFilterFormBehaviour');
   changeClass = false;
 });
 
-cntForm.addEventListener('click', () => {
+cntFilterForm.addEventListener('click', () => {
   changeClass = false;
 });
 
-filterForm.addEventListener('click', () => {
-  if (changeClass) filterForm.classList.toggle('filterFormComp');
+secFilterForm.addEventListener('click', () => {
+  if (changeClass) secFilterForm.classList.toggle('secFilterFormBehaviour');
   changeClass = true;
 });
