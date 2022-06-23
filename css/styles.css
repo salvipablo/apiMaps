@@ -31,3 +31,31 @@ body {
   margin: 0 auto;
   background-image: url('../images/mapa.png');
 }
+
+/* Filter Form */
+
+.filterForm {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.filterFormComp {
+  display: block;
+}
+
+.cntForm {
+  width: 500px;
+  height: 800px;
+  background-color: #FFFFFF;
+  margin: 70px 0 0 5px;
+  border-radius: 5px;
+}
+
+.cntForm-title {
+  text-align: center;
+}

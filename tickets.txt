@@ -2,6 +2,7 @@
 T#00001 - initial commit.
 T#00002 - Code refactoring.
 T#00003 - New navigation bar.
+T#00003 - modal type filters form.
 
 
 ****  Ticket bugs  ****
